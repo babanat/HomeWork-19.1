@@ -1,0 +1,67 @@
+* *,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/image/sunny-weather-in-monochrome-nbcij7xk909kk0lh.jpg);
+}
+.title {
+  color: rgb(138, 234, 197);
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 30px;
+}
+.weather-widget {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.location,
+.temperature,
+.description {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  padding: 10px;
+}
+.date, .time {
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  color: rgb(128, 228, 251);
+}
+.humidity, .pressure, .wind {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  color: rgb(41, 144, 218);
+}
+.location{
+    color: #f6e713;
+}
+.temperature {
+    color: rgb(95, 238, 44);
+}
+.description {
+    color: rgb(77, 123, 223);
+}
+.update-weather {
+  background-color: rgb(234, 215, 225);
+  color: rgb(33, 14, 126);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px 2px rgb(82, 128, 234);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top:  50px;
+  margin-left: 140px;
+}
